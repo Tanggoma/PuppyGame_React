@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&family=Handjet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Urbanist&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(44, 44, 110);
+}
+
+.logo-container img {
+  width: 200px;
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.8rem;
+  font-family: 'Urbanist', sans-serif;
+}
+
+a.active {
+  color: yellow;
+}
+
+a:hover {
+  color: rgb(178, 178, 171);
+}
+
+.start-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./assets/grass-2616911.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.picture-container {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+}
+
+#main-img {
+  width: 60%;
+  height: auto;
+  border-radius: 2rem;
+  border: 1rem rgba(230, 230, 235, 0.456) double;
+  opacity: 0.9;
+}
+
+#main-img:hover {
+  width: 60%;
+  height: auto;
+  border-radius: 2rem;
+  border: 1rem rgba(230, 230, 235, 0.456) double;
+  opacity: 1;
+}
+
+#start-button {
+  color: white;
+  text-shadow: 2px 2px 1px blue, -2px -2px 1px orange;
+  font-family: 'Handjet', cursive;
+  font-size: 5rem;
+  border-radius: 10px;
+  padding: 1.5rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1rem rgba(230, 230, 235, 0.456) double;
+  animation: glowing 1300ms infinite;
+  cursor: pointer;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: rgb(205, 120, 46);
+    box-shadow: 0 0 3px rgb(229, 113, 12);
+  }
+
+  50% {
+    background-color: hsl(59, 76%, 52%);
+    box-shadow: 0 0 10px hsl(59, 76%, 52%);
+  }
+
+  100% {
+    background-color: #df722e;
+    box-shadow: 0 0 3px #dd6c26;
+  }
+}
+
+.text_h1 {
+  font-family: 'Handjet', cursive;
+  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+    9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: calc(2rem + 5vw);
+  text-align: center;
+  margin: 2rem;
+  color: var(--color-primary);
+  animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+
+}
+
+:root {
+  --color-primary: white;
+  --color-secondary: blue;
+  --color-tertiary: orange;
+  --color-quaternary: blue;
+  --color-quinary: orange;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+
+  10% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+
+  20% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+
+  30% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+
+  40% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+
+  50% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+
+  70% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+
+  80% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+
+  90% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  40% {
+    transform: translate(-12px, -12px);
+  }
+
+  50% {
+    transform: translate(-12px, -12px);
+  }
+
+  60% {
+    transform: translate(-12px, -12px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+footer {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Handjet', cursive;
+  margin: 1rem;
+}
+
+.home {
+  background-image: url('./assets/grass-2616911.jpg');
+  display: flex;
+  flex-direction: column;
+  font-family: 'Urbanist', sans-serif;
+}
+
+#home-h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #c4bab5;
+  position: relative;
+  bottom: 780px;
+  left: 32px;
+  text-shadow: 2px 2px #9fa1b0;
+  letter-spacing: 29px;
+}
+
+#banner-img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+main {
+  max-width: 1500px;
+  max-height: 100vh;
+  margin: 40px auto;
+  font-family: 'Urbanist', sans-serif;
+}
+
+
+.players-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#player-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 16%;
+  border-radius: 50px;
+  margin: 2rem;
+  background-color: antiquewhite;
+  position: relative;
+}
+
+#player-img:hover {
+  transform: scaleX(-1);
+}
+
+#player-card {
+  text-decoration: none;
+  color: rgb(39, 38, 35);
+  font-size: 2rem;
+}
+
+#player-card:hover {
+  color: yellowgreen;
+}
+
+#player-name {
+  position: relative;
+  bottom: 63px;
+  left: 13px;
+}
+
+#team-button {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: rgb(255, 157, 0);
+  color: rgb(35, 33, 33);
+}
+
+input[type=text] {
+  background-color: white;
+  background-position: 10px 10px;
+  padding-left: 2rem;
+  padding: 1rem;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.team-filter-form {
+  margin: 1rem;
+}
+
+.searchForm {
+  margin: 1rem;
+}
+
+/*  FORM STYLE  */
+
+#new-player-form {
+  padding: 2rem;
+  border: 10px solid rgb(190, 186, 186);
+  background-color: rgba(140, 161, 198, 0.217);
+  border-radius: 20px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.form-container input[type="text"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+#submit-button {
+  font-size: 1rem;
+  padding: 15px;
+  margin: 1rem;
+  background-color: rgba(236, 154, 95, 0.848);
+  border-radius: 25px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+#cancel-button {
+  font-size: 1rem;
+  padding: 15px;
+  margin: 1rem;
+  background-color: rgba(152, 219, 156, 0.848);
+  border-radius: 25px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+#submit-button:hover {
+  background-color: rgba(228, 144, 84, 0.848);
+  cursor: pointer;
+}
+
+#cancel-button:hover {
+  background-color: rgba(153, 224, 137, 0.848);
+  cursor: pointer;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+input[type=text] {
+  background-color: white;
+  background-position: 10px 10px;
+  padding-left: 2rem;
+  padding: 1rem;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+input,
+select {
+  font-family: 'Urbanist', sans-serif;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 5px;
+
+}
+
+.required {
+  border-color: red;
+}
+
+/* PLAYER-DETAILS STYLE */
+
+.main-single {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.player-details {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  background-color: antiquewhite;
+
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  border-radius: 5px 5px 0 0;
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
+
+.button-container {
+  display: flex;
+  justify-items: flex-end;
+  width: 30%;
+}
+
+.back-button,
+.delete-button {
+  width: 100px;
+  height: 60px;
+  border-radius: 25px;
+  margin-top: 2rem;
+  background-color: rgb(55, 58, 244);
+  font-size: 1.2rem;
+  color: white;
+  font-family: 'Urbanist', sans-serif;
+  margin-left: 2rem;
+}
+
+.back-button:hover,
+.delete-button:hover {
+  cursor: pointer;
+  background-color: rgb(93, 95, 232);
+}
+
+#single-detail {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 1rem;
+  text-shadow: 2px 2px #9fa1b0;
+}

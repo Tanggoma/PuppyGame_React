@@ -1,0 +1,204 @@
+{
+  "puppy": [
+    {
+      "breed": "Beagle",
+      "id": 1,
+      "imageUrl": "https://i.postimg.cc/c4125sHm/dog1.jpg",
+      "name": "Allison",
+      "status": "field",
+      "teamId": 1
+    },
+    {
+      "breed": "American Pit Bull Terrier",
+      "id": 2,
+      "imageUrl": "https://i.postimg.cc/hjX4W9pS/dog2.jpg",
+      "name": "Amanda",
+      "status": "field",
+      "teamId": 1
+    },
+    {
+      "breed": "Labrador Retriever",
+      "id": 3,
+      "imageUrl": "https://i.postimg.cc/SxZpSnXj/dog3.jpg",
+      "name": "Apollo",
+      "status": "field",
+      "teamId": 1
+    },
+    {
+      "breed": "American Staffordshire Terrier",
+      "id": 4,
+      "imageUrl": "https://i.postimg.cc/Jz7LCNz9/dog4.jpg",
+      "name": "Archie",
+      "status": "field",
+      "teamId": 1
+    },
+    {
+      "breed": "Basset Hound",
+      "id": 5,
+      "imageUrl": "https://i.postimg.cc/NfkcnJB6/dog5.jpg",
+      "name": "Asiago",
+      "status": "field",
+      "teamId": 1
+    },
+    {
+      "breed": "Shih Tzu",
+      "id": 6,
+      "imageUrl": "https://i.postimg.cc/JnXw5KpB/dog6.jpg",
+      "name": "Avalanche",
+      "status": "bench",
+      "teamId": 1
+    },
+    {
+      "breed": "Shiba Inu",
+      "id": 7,
+      "imageUrl": "https://i.postimg.cc/ZqCzCJ3H/dog7.jpg",
+      "name": "Bandit",
+      "status": "bench",
+      "teamId": 1
+    },
+    {
+      "breed": "Mix Breed",
+      "id": 8,
+      "imageUrl": "https://i.postimg.cc/FFcmyF6n/dog8.jpg",
+      "name": "Barnaby",
+      "status": "bench",
+      "teamId": 1
+    },
+    {
+      "breed": "Great Pyrenees",
+      "id": 9,
+      "imageUrl": "https://i.postimg.cc/9fK59sYh/dog9.jpg",
+      "name": "Benji",
+      "status": "bench",
+      "teamId": 1
+    },
+    {
+      "breed": "American Staffordshire Terrier",
+      "id": 10,
+      "imageUrl": "https://i.postimg.cc/vHsy3FF8/dog10.jpg",
+      "name": "Bleu",
+      "status": "bench",
+      "teamId": 1
+    },
+    {
+      "breed": "Mix Breed",
+      "id": 11,
+      "imageUrl": "https://i.postimg.cc/sxJNTL71/dog11.jpg",
+      "name": "Betty",
+      "status": "field",
+      "teamId": 2
+    },
+    {
+      "breed": "American Pit Bull Terrier",
+      "id": 12,
+      "imageUrl": "https://i.postimg.cc/CKfr35k3/dog12.jpg",
+      "name": "Blizzard",
+      "status": "field",
+      "teamId": 2
+    },
+    {
+      "breed": "Poodle",
+      "id": 13,
+      "imageUrl": "https://i.postimg.cc/SxRvGDsN/dog13.jpg",
+      "name": "Bo",
+      "status": "field",
+      "teamId": 2
+    },
+    {
+      "breed": "Beagle",
+      "id": 14,
+      "imageUrl": "https://i.postimg.cc/9FWSDWH9/dog14.jpg",
+      "name": "Briscoe",
+      "status": "field",
+      "teamId": 2
+    },
+    {
+      "breed": "Chihuahua",
+      "id": 15,
+      "imageUrl": "https://i.postimg.cc/8zYnXMJd/dog15.jpg",
+      "name": "Chaos",
+      "status": "field",
+      "teamId": 2
+    },
+    {
+      "breed": "Poodle/Labrador Retriever",
+      "id": 16,
+      "imageUrl": "https://i.postimg.cc/MZ0NZnNx/dog16.jpg",
+      "name": "Davinci",
+      "status": "bench",
+      "teamId": 2
+    },
+    {
+      "breed": "Siberian Husky",
+      "id": 17,
+      "imageUrl": "https://i.postimg.cc/MHwLbwch/dog17.jpg",
+      "name": "Echo",
+      "status": "bench",
+      "teamId": 2
+    },
+    {
+      "breed": "Miniature Schnauzer",
+      "id": 18,
+      "imageUrl": "https://i.postimg.cc/3JnqpP3c/dog18.jpg",
+      "name": "Effie",
+      "status": "bench",
+      "teamId": 2
+    },
+    {
+      "breed": "Beagle/Chihuahua",
+      "id": 19,
+      "imageUrl": "https://i.postimg.cc/x1Bt3Qht/dog19.jpg",
+      "name": "Eleven",
+      "status": "bench",
+      "teamId": 2
+    },
+    {
+      "breed": "Australian Cattle Dog",
+      "id": 20,
+      "imageUrl": "https://i.postimg.cc/1z6MWTZP/dog20.jpg",
+      "name": "Hawk",
+      "status": "bench",
+      "teamId": 2
+    },
+    {
+      "name": "Try",
+      "breed": "Corgi",
+      "status": "field",
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/03/31/06/31/dog-3277414_1280.jpg",
+      "teamId": 1,
+      "id": 21
+    },
+    {
+      "name": "Test",
+      "breed": "Shiba Inu",
+      "status": "bench",
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/03/31/06/31/dog-3277414_1280.jpg",
+      "teamId": "2",
+      "id": 22
+    },
+    {
+      "name": "barbie",
+      "breed": "Mastiff",
+      "status": "field",
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/05/11/08/11/dog-3389729_1280.jpg",
+      "teamId": "2",
+      "id": 23
+    },
+    {
+      "name": "Google",
+      "breed": "Corgi",
+      "status": "field",
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/07/31/11/43/bordeaux-869028_1280.jpg",
+      "teamId": 1,
+      "id": 24
+    },
+    {
+      "name": "TRY",
+      "breed": "Mastiff",
+      "status": "field",
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/07/31/11/43/bordeaux-869028_1280.jpg",
+      "teamId": 1,
+      "id": 25
+    }
+  ]
+}
